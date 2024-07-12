@@ -7,5 +7,5 @@ Learning OpenCV By Official Documents
 第一章：基础知识
 
 - [滤波函数](./docs/1.1.md)
-- 金字塔函数![1720716253707](image/1.1/1720716253707.png)
+- [金字塔函数](./docs/1.2.md)
 - 形态学操作
