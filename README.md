@@ -8,4 +8,11 @@ Learning OpenCV By Official Documents
 
 - [滤波函数](./docs/1.1.md)
 - [金字塔函数](./docs/1.2.md)
-- 形态学操作
+- [形态学操作](/docs/1.3.md)
+
+
+TODO
+
+1. 形态学更多应用
+2. RANSAC 细节
+3. pyrMeanShiftFiltering(1.1)
