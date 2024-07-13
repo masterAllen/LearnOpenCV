@@ -8,8 +8,10 @@ Learning OpenCV By Official Documents
 
 - [滤波函数](./docs/1.1.md)
 - [金字塔函数](./docs/1.2.md)
-- [形态学操作](/docs/1.3.md)
-
+- [形态学操作](./docs/1.3.md)
+- [变换矩阵](./docs/1.4.md)
+- [阈值处理](./docs/1.5.md)
+- [杂项](./docs/1.misc.md)
 
 TODO
 
