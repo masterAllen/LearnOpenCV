@@ -14,8 +14,13 @@ Learning OpenCV By Official Documents
 - [直方图](./docs/1.6.md)
 - [杂项](./docs/1.misc.md)
 
-TODO
+## TODO
 
-1. 形态学更多应用
-2. RANSAC 细节
-3. pyrMeanShiftFiltering(1.1)
+有一些较细节的知识点
+
+| 章节 | 知识点                |
+| ---- | --------------------- |
+| 1.1  | RANSAC                |
+| 1.1  | pyrMeanShiftFiltering |
+| 1.3  | 形态学更多应用        |
+| 1.6  | EMD距离指标           |
