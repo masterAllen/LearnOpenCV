@@ -12,12 +12,18 @@ Learning OpenCV By Official Documents
 - [X] [变换矩阵](./docs/1.4.md)
 - [X] [阈值处理](./docs/1.5.md)
 - [X] [直方图](./docs/1.6.md)
-- [ ] [二维几何](./docs/1.7.md)
+- [X] [二维几何](./docs/1.7.md)
 - [ ] [杂项](./docs/1.misc.md)
+
+第二章：特征提取、目标识别
+
+- [ ] [三部曲：特征点提取；特征点匹配；特征点求变换矩阵](./docs/2.1.md)
 
 ## TODO
 
 1.7 中还有 createGeneralizedHoughBallard, createGeneralizedHoughGuil
+
+https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phaseCorrelate 函数
 
 有一些较细节的知识点
 
