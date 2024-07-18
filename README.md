@@ -17,7 +17,9 @@ Learning OpenCV By Official Documents
 
 第二章：特征提取、目标识别
 
-- [ ] [三部曲：特征点提取；特征点匹配；特征点求变换矩阵](./docs/2.1.md)
+- [x] [三部曲：特征点提取；特征点描述；特征点匹配](./docs/2.1.md)
+- [ ] [霍尔变换](./docs/2.2.md)
+- [ ] [边缘检测](./docs/2.3.md)
 
 ## TODO
 
@@ -34,3 +36,4 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 | 1.3  | 形态学更多应用                 |
 | 1.6  | EMD距离指标                    |
 | 1.7  | findContoursLinksRuns 内部原理 |
+| 2.1  | 各个特征点提取、描述、匹配具体的内部原理 |
