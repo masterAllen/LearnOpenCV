@@ -20,17 +20,18 @@ Learning OpenCV By Official Documents
 
 第二章：特征提取、目标识别
 
-- [X] [三部曲：特征点提取；特征点描述；特征点匹配](./docs/2.1.md)
+- [X] [特征点三部曲：提取；描述；匹配](./docs/2.1.md)
 - [X] [更详细的角点函数](./docs/2.2.md)
 - [ ] [特别的特征：边缘检测](./docs/2.3.md)
 - [ ] [霍尔变换检测直线和圆](./docs/2.4.md)
 
 第三章：前后景分离
-- [ ] [GrabCut]()
+
+- [X] [GrabCut, WaterShed](./docs/3.1.md)
+- [ ] [视频帧: BackGroundSubtractor](./docs/3.2.md)
 - [ ] [Alpha matting]()
 
 第四章：图像配准
-
 
 ## TODO
 
@@ -49,6 +50,7 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 | 1.7  | findContoursLinksRuns 内部原理           |
 | 2.1  | 各个特征点提取、描述、匹配具体的内部原理 |
 | 2.2  | 亚像素角点                               |
+| 3.1  | GrabCut                               |
 
 函数具体的细节：
 
