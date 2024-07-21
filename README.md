@@ -22,8 +22,8 @@ Learning OpenCV By Official Documents
 
 - [X] [特征点三部曲：提取；描述；匹配](./docs/2.1.md)
 - [X] [更详细的角点函数](./docs/2.2.md)
-- [ ] [特别的特征：边缘检测](./docs/2.3.md)
-- [ ] [霍尔变换检测直线和圆](./docs/2.4.md)
+- [X] [霍尔变换检测直线和圆](./docs/2.3.md)
+- [ ] [特别的特征：边缘检测](./docs/2.4.md)
 
 第三章：前后景分离
 
@@ -32,6 +32,7 @@ Learning OpenCV By Official Documents
 - [ ] [Alpha matting]()
 
 第四章：图像配准
+- [ ] [整体配准](./docs/4.1.md)
 
 ## TODO
 
@@ -41,16 +42,17 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 
 内部的原理：
 
-| 章节 | 知识点                                   |
-| ---- | ---------------------------------------- |
-| 1.1  | RANSAC                                   |
-| 1.1  | pyrMeanShiftFiltering                    |
-| 1.3  | 形态学更多应用                           |
-| 1.6  | EMD距离指标                              |
-| 1.7  | findContoursLinksRuns 内部原理           |
-| 2.1  | 各个特征点提取、描述、匹配具体的内部原理 |
-| 2.2  | 亚像素角点                               |
-| 3.1  | GrabCut                               |
+| 章节 | 知识点                                                 |
+| ---- | ------------------------------------------------------ |
+| 1.1  | RANSAC                                                 |
+| 1.1  | pyrMeanShiftFiltering                                  |
+| 1.3  | 形态学更多应用                                         |
+| 1.6  | EMD距离指标                                            |
+| 1.7  | findContoursLinksRuns 内部原理                         |
+| 2.1  | 各个特征点提取、描述、匹配具体的内部原理               |
+| 2.2  | 亚像素角点                                             |
+| 3.1  | GrabCut 原论文                                         |
+| 3.2  | 每个 BackGroundSubtractor 的原理，去 OpenCV 查参考文献 |
 
 函数具体的细节：
 
