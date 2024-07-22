@@ -26,7 +26,7 @@ Learning OpenCV By Official Documents
 - [X] [更详细的角点函数](./docs/2.2.md)
 - [X] [特别的特征：边缘检测](./docs/2.3.md)
 
-第三章：目标分类/识别
+第三章：目标分类/识别/检索
 
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
 - [ ] [BOW 词袋模型](./docs/3.2.md)
