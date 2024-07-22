@@ -6,6 +6,8 @@ Learning OpenCV By Official Documents
 
 20240719 更新：先不对各个函数做具体详细说明，重点关注各个函数的作用是什么？我要解决某个问题时应该使用什么函数？
 
+20240722 更新：对于常用函数还是要说明，比如计算直方图这些基础函数。
+
 第一章：基础知识
 
 - [X] [滤波函数](./docs/1.1.md)
@@ -15,24 +17,39 @@ Learning OpenCV By Official Documents
 - [X] [阈值处理](./docs/1.5.md)
 - [X] [直方图](./docs/1.6.md)
 - [X] [二维几何](./docs/1.7.md)
-- [ ] [模板匹配](./docs/1.8.md)
+- [X] [模板匹配](./docs/1.8.md)
 - [ ] [杂项](./docs/1.misc.md)
 
-第二章：特征提取、目标识别
+第二章：特征提取
 
 - [X] [特征点三部曲：提取；描述；匹配](./docs/2.1.md)
 - [X] [更详细的角点函数](./docs/2.2.md)
-- [X] [霍尔变换检测直线和圆](./docs/2.3.md)
-- [ ] [特别的特征：边缘检测](./docs/2.4.md)
+- [X] [特别的特征：边缘检测](./docs/2.4.md)
 
-第三章：前后景分离
+第三章：目标分类/识别
+
+- [X] [霍尔变换检测直线和圆](./docs/3.1.md)
+- [ ] [BOW 词袋模型](./docs/3.2.md)
+
+第四章：前后景分离
 
 - [X] [GrabCut, WaterShed](./docs/3.1.md)
-- [ ] [视频帧: BackGroundSubtractor](./docs/3.2.md)
+- [X] [视频帧: BackGroundSubtractor](./docs/3.2.md)
 - [ ] [Alpha matting]()
 
-第四章：图像配准
-- [ ] [整体配准](./docs/4.1.md)
+第五章：图像配准
+
+- [X] [整体配准：特征点法，迭代收敛](./docs/4.1.md)
+- [ ] [局部配准：光流法](./docs/4.2.md)
+
+第六章：目标追踪
+
+- [ ] [MeanShift, CamShift](./docs/5.1.md)
+- [X] [利用图像配准](./docs/5.2.md)
+- [X] [光流法](./docs/5.3.md)
+- [ ] [Tracker](./docs/5.4.md)
+
+第七章：相机标定
 
 ## TODO
 
