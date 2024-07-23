@@ -24,12 +24,15 @@ Learning OpenCV By Official Documents
 
 - [X] [特征点三部曲：提取；描述；匹配](./docs/2.1.md)
 - [X] [更详细的角点函数](./docs/2.2.md)
-- [X] [特别的特征：边缘检测](./docs/2.3.md)
+- [ ] [HOG 特征](./docs/2.3.md)
+- [X] [特别的特征：边缘检测](./docs/2.4.md)
+
 
 第三章：目标分类/识别/检索
 
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
-- [ ] [BOW 词袋模型](./docs/3.2.md)
+- [ ] [斑点检测](./docs/3.2.md)
+- [ ] [BOW 词袋模型](./docs/3.3.md)
 
 第四章：前后景分离
 
@@ -39,14 +42,14 @@ Learning OpenCV By Official Documents
 
 第五章：图像配准
 
-- [X] [整体配准：特征点法，迭代收敛](./docs/5.1.md)
+- [ ] [整体配准：特征点法，迭代收敛](./docs/5.1.md)
 - [ ] [局部配准：光流法](./docs/5.2.md)
 
 第六章：目标追踪
 
 - [ ] [MeanShift, CamShift](./docs/6.1.md)
 - [X] [利用图像配准](./docs/6.2.md)
-- [X] [光流法](./docs/6.3.md)
+- [ ] [光流法](./docs/6.3.md)
 - [X] [Tracker](./docs/6.4.md)
 
 
