@@ -49,7 +49,7 @@ Learning OpenCV By Official Documents
 
 - [ ] [MeanShift, CamShift](./docs/6.1.md)
 - [X] [利用图像配准](./docs/6.2.md)
-- [ ] [光流法](./docs/6.3.md)
+- [X] [光流法](./docs/6.3.md)
 - [X] [Tracker](./docs/6.4.md)
 
 
