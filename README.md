@@ -32,7 +32,7 @@ Learning OpenCV By Official Documents
 第三章：目标分类/识别/检索
 
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
-- [X] [斑点检测](./docs/3.2.md)
+- [ ] [斑点检测](./docs/3.2.md)
 - [ ] [从 SVM 到 BOW 词袋](./docs/3.3.md)
 - [ ] [条形码，二维码检测](./docs/3.4.md)
 
@@ -55,7 +55,7 @@ Learning OpenCV By Official Documents
 - [X] [Tracker](./docs/6.4.md)
 
 
-第七章：相机标定
+<!-- 第七章：相机标定
 
 第八章：图像拼接
 
@@ -70,7 +70,7 @@ Learning OpenCV By Official Documents
 - [ ] [使用长短帧融合的经典 HDR 方法]
 - [ ] [图像补全]
 - [ ] [彩色转灰色，保持对比度]
-- [ ] [图像风格化：水彩、卡通]
+- [ ] [图像风格化：水彩、卡通] -->
 
 ## TODO
 
