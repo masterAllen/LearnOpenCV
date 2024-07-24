@@ -16,23 +16,25 @@ Learning OpenCV By Official Documents
 - [X] [变换矩阵](./docs/1.4.md)
 - [X] [阈值处理](./docs/1.5.md)
 - [X] [直方图](./docs/1.6.md)
-- [X] [二维几何](./docs/1.7.md)
+- [X] [轮廓和二维几何](./docs/1.7.md)
 - [X] [模板匹配](./docs/1.8.md)
+- [ ] [分类](./docs/1.9.md)
 - [ ] [杂项](./docs/1.misc.md)
 
 第二章：特征提取
 
 - [X] [特征点三部曲：提取；描述；匹配](./docs/2.1.md)
 - [X] [更详细的角点函数](./docs/2.2.md)
-- [ ] [HOG 特征](./docs/2.3.md)
+- [X] [HOG 特征](./docs/2.3.md)
 - [X] [特别的特征：边缘检测](./docs/2.4.md)
 
 
 第三章：目标分类/识别/检索
 
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
-- [ ] [斑点检测](./docs/3.2.md)
-- [ ] [BOW 词袋模型](./docs/3.3.md)
+- [X] [斑点检测](./docs/3.2.md)
+- [ ] [从 SVM 到 BOW 词袋](./docs/3.3.md)
+- [ ] [条形码，二维码检测](./docs/3.4.md)
 
 第四章：前后景分离
 
@@ -42,7 +44,7 @@ Learning OpenCV By Official Documents
 
 第五章：图像配准
 
-- [ ] [整体配准：特征点法，迭代收敛](./docs/5.1.md)
+- [ ] [整体配准：特征点法 or 迭代收敛](./docs/5.1.md)
 - [ ] [局部配准：光流法](./docs/5.2.md)
 
 第六章：目标追踪
@@ -54,6 +56,21 @@ Learning OpenCV By Official Documents
 
 
 第七章：相机标定
+
+第八章：图像拼接
+
+第九章：图像恢复：去噪、去抖、超分
+- [ ] [常见去噪]
+
+第十章：对比度
+
+第十章：Aruco
+
+第九章：杂项
+- [ ] [使用长短帧融合的经典 HDR 方法]
+- [ ] [图像补全]
+- [ ] [彩色转灰色，保持对比度]
+- [ ] [图像风格化：水彩、卡通]
 
 ## TODO
 
@@ -78,3 +95,4 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 函数具体的细节：
 
 - HoughCircles
+- HOGDescriptor 类里面的各种函数
