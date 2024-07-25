@@ -32,9 +32,10 @@ Learning OpenCV By Official Documents
 第三章：目标分类/识别/检索
 
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
-- [ ] [斑点检测](./docs/3.2.md)
+- [X] [斑点检测](./docs/3.2.md)
 - [ ] [从 SVM 到 BOW 词袋](./docs/3.3.md)
 - [ ] [条形码，二维码检测](./docs/3.4.md)
+- [ ] [级联分类器](./docs/3.5.md)
 
 第四章：前后景分离
 
