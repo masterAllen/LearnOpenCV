@@ -28,14 +28,12 @@ Learning OpenCV By Official Documents
 - [X] [HOG 特征](./docs/2.3.md)
 - [X] [特别的特征：边缘检测](./docs/2.4.md)
 
-
 第三章：目标分类/识别/检索
 
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
-- [X] [斑点检测](./docs/3.2.md)
-- [ ] [从 SVM 到 BOW 词袋](./docs/3.3.md)
-- [ ] [条形码，二维码检测](./docs/3.4.md)
-- [ ] [级联分类器](./docs/3.5.md)
+- [X] [常见检测：斑点、条形码二维码](./docs/3.2.md)
+- [X] [从 SVM 到 BOW 词袋](./docs/3.3.md)
+- [ ] [级联分类器](./docs/3.4.md)
 
 第四章：前后景分离
 
@@ -54,7 +52,6 @@ Learning OpenCV By Official Documents
 - [X] [利用图像配准](./docs/6.2.md)
 - [X] [光流法](./docs/6.3.md)
 - [X] [Tracker](./docs/6.4.md)
-
 
 <!-- 第七章：相机标定
 

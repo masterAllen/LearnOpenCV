@@ -5,8 +5,14 @@ record_np.py
 code/detect_features.ipynb
 docs/5.1.md
 test_bow.py
-docs/3.3.md
 docs/3.4.md
 
 code/image/hog_imgs/
 code/image/classification_imgs/
+code/data/haarcascade_eye_tree_eyeglasses.xml
+code/data/haarcascade_frontalface_alt.xml
+code/test_cascade.ipynb
+docs/image/3.4/1722048880848.png
+docs/image/3.4/1722049990508.png
+docs/image/3.4/1722050324001.png
+docs/image/3.4/1722063352642.png
