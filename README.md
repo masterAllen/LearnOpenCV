@@ -33,7 +33,7 @@ Learning OpenCV By Official Documents
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
 - [X] [常见检测：斑点、条形码二维码](./docs/3.2.md)
 - [X] [从 SVM 到 BOW 词袋](./docs/3.3.md)
-- [ ] [级联分类器](./docs/3.4.md)
+- [X] [级联分类器](./docs/3.4.md)
 
 第四章：前后景分离
 
@@ -41,10 +41,11 @@ Learning OpenCV By Official Documents
 - [X] [视频帧: BackGroundSubtractor](./docs/4.2.md)
 - [ ] [Alpha matting]()
 
-第五章：图像配准
+第五章：图像配准和拼接
 
 - [ ] [整体配准：特征点法 or 迭代收敛](./docs/5.1.md)
 - [ ] [局部配准：光流法](./docs/5.2.md)
+- [ ] [从图像配准到图像拼接](./docs/5.3.md)
 
 第六章：目标追踪
 
@@ -53,9 +54,19 @@ Learning OpenCV By Official Documents
 - [X] [光流法](./docs/6.3.md)
 - [X] [Tracker](./docs/6.4.md)
 
-<!-- 第七章：相机标定
+第七章：相机标定
 
-第八章：图像拼接
+第八章：图像恢复：去噪、去抖、超分
+- [ ] [常见去噪]
+- [ ] [超分]
+
+第九章：杂项
+- [ ] [使用长短帧融合的经典 HDR 方法]
+- [ ] [彩色转灰色，保持对比度]
+
+
+
+<!-- 第七章：相机标定
 
 第九章：图像恢复：去噪、去抖、超分
 - [ ] [常见去噪]
