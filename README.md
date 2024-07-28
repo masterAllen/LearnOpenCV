@@ -61,7 +61,7 @@ Learning OpenCV By Official Documents
 - [ ] [超分]
 
 第九章：杂项
-- [ ] [使用长短帧融合的经典 HDR 方法]
+- [ ] [使用长短帧融合的经典 HDR 方法](./docs/9.1.md)
 - [ ] [彩色转灰色，保持对比度]
 
 
