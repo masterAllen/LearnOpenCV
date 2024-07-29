@@ -43,8 +43,9 @@ Learning OpenCV By Official Documents
 
 第五章：图像配准和拼接
 
-- [ ] [整体配准：特征点法 or 迭代收敛](./docs/5.1.md)
+- [X] [整体配准：特征点法 or 迭代收敛](./docs/5.1.md)
 - [ ] [局部配准：光流法](./docs/5.2.md)
+- [ ] [不同亮度的配准（如HDR）](./docs/5.3.md)
 - [ ] [从图像配准到图像拼接](./docs/5.3.md)
 
 第六章：目标追踪
@@ -61,7 +62,7 @@ Learning OpenCV By Official Documents
 - [ ] [超分]
 
 第九章：杂项
-- [ ] [使用长短帧融合的经典 HDR 方法](./docs/9.1.md)
+- [X] [使用长短帧融合的经典 HDR 方法](./docs/9.1.md)
 - [ ] [彩色转灰色，保持对比度]
 
 
