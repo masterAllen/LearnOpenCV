@@ -58,12 +58,13 @@ Learning OpenCV By Official Documents
 第七章：相机标定
 
 第八章：图像恢复：去噪、去抖、超分
-- [ ] [常见去噪]
-- [ ] [超分]
+- [ ] [常见去噪](./docs/8.1.md)
+- [ ] [去抖](./docs/8.2.md)
+- [ ] [超分](./docs/8.3.md)
 
 第九章：杂项
 - [X] [使用长短帧融合的经典 HDR 方法](./docs/9.1.md)
-- [ ] [彩色转灰色，保持对比度]
+- [X] [彩色转灰色，保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
 
 
 

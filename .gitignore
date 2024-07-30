@@ -7,3 +7,7 @@ test_bow.py
 
 code/image/hog_imgs/
 code/image/classification_imgs/
+code/test_cloning.ipynb
+code/image/cloning_imgs/airplane.jpg
+code/image/cloning_imgs/sky.jpg
+docs/9.2.md
