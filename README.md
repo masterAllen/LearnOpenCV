@@ -8,6 +8,8 @@ Learning OpenCV By Official Documents
 
 20240722 更新：对于常用函数还是要说明，比如计算直方图这些基础函数。
 
+20240808 更新：对于一些涉及到调整参数的函数，需要介绍一下原理。比如 HOG 特征、Harris 角点等。
+
 第一章：基础知识
 
 - [X] [滤波函数](./docs/1.1.md)
@@ -32,21 +34,22 @@ Learning OpenCV By Official Documents
 
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
 - [X] [常见检测：斑点、条形码二维码](./docs/3.2.md)
-- [X] [从 SVM 到 BOW 词袋](./docs/3.3.md)
-- [X] [级联分类器](./docs/3.4.md)
+- [X] [数据学习的开始：HOG+SVM](./docs/3.3.md)
+- [X] [数据学习的提升：BoW 词袋模型](./docs/3.4.md)
+- [X] [数据学习的提升：级联分类器](./docs/3.5.md)
+- [ ] [人脸识别](./docs/3.6.md)
 
 第四章：前后景分离
 
-- [X] [GrabCut, WaterShed](./docs/4.1.md)
+- [X] [GrabCut, WaterShed, AlphaMatting](./docs/4.1.md)
 - [X] [视频帧: BackGroundSubtractor](./docs/4.2.md)
-- [ ] [Alpha matting]()
 
 第五章：图像配准和拼接
 
 - [X] [整体配准：特征点法 or 迭代收敛](./docs/5.1.md)
 - [ ] [局部配准：光流法](./docs/5.2.md)
 - [ ] [不同亮度的配准（如HDR）](./docs/5.3.md)
-- [ ] [从图像配准到图像拼接](./docs/5.3.md)
+- [ ] [从图像配准到图像拼接](./docs/5.4.md)
 
 第六章：目标追踪
 
@@ -58,30 +61,22 @@ Learning OpenCV By Official Documents
 第七章：相机标定
 
 第八章：图像恢复：去噪、去抖、超分
+
 - [ ] [常见去噪](./docs/8.1.md)
 - [ ] [去抖](./docs/8.2.md)
 - [ ] [超分](./docs/8.3.md)
 
 第九章：杂项
+
 - [X] [使用长短帧融合的经典 HDR 方法](./docs/9.1.md)
 - [X] [彩色转灰色，保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
+- [X] [泊松融合](./docs/9.2.md)
+- [X] [图像转为不同风格](./docs/9.3.md)
 
+一些不好归纳的记录：
 
-
-<!-- 第七章：相机标定
-
-第九章：图像恢复：去噪、去抖、超分
-- [ ] [常见去噪]
-
-第十章：对比度
-
-第十章：Aruco
-
-第九章：杂项
-- [ ] [使用长短帧融合的经典 HDR 方法]
-- [ ] [图像补全]
-- [ ] [彩色转灰色，保持对比度]
-- [ ] [图像风格化：水彩、卡通] -->
+1. 提取确定的前景：使用 **DistanceTansform**，该函数在 [1.3](./docs/1.3.md) 中有介绍
+2. 去高亮：使用 **illuminationChange**，[泊松融合](./docs/9.2.md) 那里
 
 ## TODO
 
@@ -91,17 +86,22 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 
 内部的原理：
 
-| 章节 | 知识点                                                 |
-| ---- | ------------------------------------------------------ |
-| 1.1  | RANSAC                                                 |
-| 1.1  | pyrMeanShiftFiltering                                  |
-| 1.3  | 形态学更多应用                                         |
-| 1.6  | EMD距离指标                                            |
-| 1.7  | findContoursLinksRuns 内部原理                         |
-| 2.1  | 各个特征点提取、描述、匹配具体的内部原理               |
-| 2.2  | 亚像素角点                                             |
-| 3.1  | GrabCut 原论文                                         |
-| 3.2  | 每个 BackGroundSubtractor 的原理，去 OpenCV 查参考文献 |
+| 章节 | 知识点                                                                                                                         |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1.1  | RANSAC                                                                                                                         |
+| 1.1  | pyrMeanShiftFiltering                                                                                                          |
+| 1.3  | 形态学更多应用                                                                                                                 |
+| 1.6  | EMD距离指标                                                                                                                    |
+| 1.7  | findContoursLinksRuns 内部原理                                                                                                 |
+| 2.1  | 各个特征点提取、描述、匹配具体的内部原理                                                                                       |
+| 2.2  | 亚像素角点                                                                                                                     |
+| 3.1  | GrabCut 原论文                                                                                                                 |
+| 3.1  | AlphaMatting 原论文                                                                                                            |
+| 3.2  | 每个 BackGroundSubtractor 的原理，去 OpenCV 查参考文献                                                                         |
+| 9.2  | 彩色转灰色保持对比度的方法                                                                                                     |
+| 9.3  | 泊松融合重新看                                                                                                                 |
+| 9.1  | HDR 相机响应曲线                                                                                                               |
+| 4.3  | [Alpha matting](https://openaccess.thecvf.com/content_cvpr_2017/papers/Aksoy_Designing_Effective_Inter-Pixel_CVPR_2017_paper.pdf) |
 
 函数具体的细节：
 
