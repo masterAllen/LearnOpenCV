@@ -37,12 +37,14 @@ Learning OpenCV By Official Documents
 - [X] [数据学习的开始：HOG+SVM](./docs/3.3.md)
 - [X] [数据学习的提升：BoW 词袋模型](./docs/3.4.md)
 - [X] [数据学习的提升：级联分类器](./docs/3.5.md)
+- [ ] [多目标的识别]
 - [ ] [人脸识别](./docs/3.6.md)
 
-第四章：前后景分离
+第四章：图片分割
 
-- [X] [GrabCut, WaterShed, AlphaMatting](./docs/4.1.md)
-- [X] [视频帧: BackGroundSubtractor](./docs/4.2.md)
+- [X] [交互式前后背景分离：GrabCut, WaterShed, AlphaMatting](./docs/4.1.md)
+- [X] [视频帧前后背景分离: BackGroundSubtractor](./docs/4.2.md)
+- [X] [HfsSegment](./docs/4.3.md)
 
 第五章：图像配准和拼接
 
@@ -60,11 +62,14 @@ Learning OpenCV By Official Documents
 
 第七章：相机标定
 
-第八章：图像恢复：去噪、去抖、超分
+第八章：经典图像处理：去噪、去抖、超分、对比度
 
 - [ ] [常见去噪](./docs/8.1.md)
 - [ ] [去抖](./docs/8.2.md)
 - [ ] [超分](./docs/8.3.md)
+- [ ] [对比度增强](./docs/8.4.md)
+
+第九章：对比度提升
 
 第九章：杂项
 
@@ -72,6 +77,8 @@ Learning OpenCV By Official Documents
 - [X] [彩色转灰色，保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
 - [X] [泊松融合](./docs/9.2.md)
 - [X] [图像转为不同风格](./docs/9.3.md)
+- [ ] [Image Hash，图像相似度](./docs/9.4.md)
+
 
 一些不好归纳的记录：
 
@@ -101,7 +108,8 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 | 9.2  | 彩色转灰色保持对比度的方法                                                                                                     |
 | 9.3  | 泊松融合重新看                                                                                                                 |
 | 9.1  | HDR 相机响应曲线                                                                                                               |
-| 4.3  | [Alpha matting](https://openaccess.thecvf.com/content_cvpr_2017/papers/Aksoy_Designing_Effective_Inter-Pixel_CVPR_2017_paper.pdf) |
+| 4.1  | [Alpha matting](https://openaccess.thecvf.com/content_cvpr_2017/papers/Aksoy_Designing_Effective_Inter-Pixel_CVPR_2017_paper.pdf) |
+| 4.3  | [HFS](https://github.com/yun-liu/hfs)                                                                                             |
 
 函数具体的细节：
 
