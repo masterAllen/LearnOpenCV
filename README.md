@@ -77,7 +77,8 @@ Learning OpenCV By Official Documents
 - [X] [彩色转灰色，保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
 - [X] [泊松融合](./docs/0.2.md)
 - [X] [图像转为不同风格](./docs/0.3.md)
-- [ ] [Image Hash，图像相似度](./docs/0.4.md)
+- [X] [Image Hash，图像相似度](./docs/0.4.md)
+- [ ] [图像修复](./docs/0.5.md)
 
 
 一些不好归纳的记录：
