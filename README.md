@@ -62,14 +62,16 @@ Learning OpenCV By Official Documents
 
 第七章：相机标定
 
-第八章：图像增强：去噪、去抖、超分、对比度
+第八章：传统方法下的图像增强
 
 - [ ] [常见去噪](./docs/8.1.md)
 - [ ] [去抖](./docs/8.2.md)
 - [ ] [超分](./docs/8.3.md)
-- [ ] [对比度增强](./docs/8.4.md)
+- [X] [对比度增强](./docs/8.4.md)
 
 第九章：ISP 各步骤
+
+- [ ] [CCM](./docs/9.1.md)
 
 第零章：杂项
 
@@ -79,12 +81,13 @@ Learning OpenCV By Official Documents
 - [X] [图像转为不同风格](./docs/0.3.md)
 - [X] [Image Hash，图像相似度](./docs/0.4.md)
 - [ ] [图像修复](./docs/0.5.md)
+- [ ] [视网膜模型，可用于对比度增强、ToneMapping、运动检测]
 
 
 一些不好归纳的记录：
 
 1. 提取确定的前景：使用 **DistanceTansform**，该函数在 [1.3](./docs/1.3.md) 中有介绍
-2. 去高亮：使用 **illuminationChange**，[泊松融合](./docs/9.2.md) 那里
+2. 去高亮：使用 **illuminationChange**，[泊松融合](./docs/0.2.md) 那里
 
 ## TODO
 
