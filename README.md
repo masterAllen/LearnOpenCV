@@ -1,8 +1,10 @@
-# LearnOpenCV
+# LearnOpenCV2D
 
-Learning OpenCV By Official Documents
+Learning OpenCV **2D Part** By Official Documents
 
 系统过一遍官方文档：[https://docs.opencv.org/4.x/index.html](https://docs.opencv.org/4.x/index.html)，个人笔记，因此会很跳跃，其中简单的使用不会提，比如正常的读存图片、数据格式等等。
+
+3D 部分不涉及，OpenCV 3D 的模块: ovis, rapid, rgbd, sfm, stereo, structured_light, surface_matching, viz
 
 20240719 更新：先不对各个函数做具体详细说明，重点关注各个函数的作用是什么？我要解决某个问题时应该使用什么函数？
 
@@ -50,7 +52,7 @@ Learning OpenCV By Official Documents
 
 - [X] [整体配准：特征点法 or 迭代收敛](./docs/5.1.md)
 - [ ] [局部配准：光流法](./docs/5.2.md)
-- [ ] [不同亮度的配准（如HDR）](./docs/5.3.md)
+- [X] [不同亮度的配准（HDR MTB）](./docs/5.3.md)
 - [ ] [从图像配准到图像拼接](./docs/5.4.md)
 
 第六章：目标追踪
@@ -60,7 +62,10 @@ Learning OpenCV By Official Documents
 - [X] [光流法](./docs/6.3.md)
 - [X] [Tracker](./docs/6.4.md)
 
-第七章：相机标定
+第七章：相机相关
+- [ ] [相机标定]
+- [ ] [ISP流程: AWB and Demosaic]
+- [ ] [ISP流程: CCM]
 
 第八章：传统方法下的图像增强
 
@@ -69,19 +74,15 @@ Learning OpenCV By Official Documents
 - [ ] [超分](./docs/8.3.md)
 - [X] [对比度增强](./docs/8.4.md)
 
-第九章：ISP 各步骤
-
-- [ ] [CCM](./docs/9.1.md)
-
 第零章：杂项
 
 - [X] [使用长短帧融合的经典 HDR 方法](./docs/0.1.md)
-- [X] [彩色转灰色，保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
-- [X] [泊松融合](./docs/0.2.md)
+- [X] [泊松融合，也可用于色彩或亮度更平滑的变换](./docs/0.2.md)
 - [X] [图像转为不同风格](./docs/0.3.md)
 - [X] [Image Hash，图像相似度](./docs/0.4.md)
-- [ ] [图像修复](./docs/0.5.md)
-- [ ] [视网膜模型，可用于对比度增强、ToneMapping、运动检测]
+- [ ] [视网膜模型，可用于对比度增强、ToneMapping、运动检测](./docs/0.5.md)
+- [X] [彩色转灰色时保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
+- [ ] [图像修复](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html)
 
 
 一些不好归纳的记录：
