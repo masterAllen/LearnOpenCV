@@ -80,9 +80,9 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [泊松融合，也可用于色彩或亮度更平滑的变换](./docs/0.2.md)
 - [X] [图像转为不同风格](./docs/0.3.md)
 - [X] [Image Hash，图像相似度](./docs/0.4.md)
-- [ ] [视网膜模型，可用于对比度增强、ToneMapping、运动检测](./docs/0.5.md)
+- [X] [视网膜模型，可用于对比度增强、ToneMapping、运动检测](./docs/0.5.md)
 - [X] [彩色转灰色时保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
-- [ ] [图像修复](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html)
+- [X] [图像修复](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html)
 
 
 一些不好归纳的记录：
@@ -111,6 +111,8 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 | 3.1  | AlphaMatting 原论文                                                                                                            |
 | 3.2  | 每个 BackGroundSubtractor 的原理，去 OpenCV 查参考文献                                                                         |
 | 9.2  | 彩色转灰色保持对比度的方法                                                                                                     |
+| 9.5  | 常见图像修复的原理                                                                                                     |
+| 9.3  | 泊松融合重新看                                                                                                                 |
 | 9.3  | 泊松融合重新看                                                                                                                 |
 | 9.1  | HDR 相机响应曲线                                                                                                               |
 | 4.1  | [Alpha matting](https://openaccess.thecvf.com/content_cvpr_2017/papers/Aksoy_Designing_Effective_Inter-Pixel_CVPR_2017_paper.pdf) |
