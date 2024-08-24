@@ -31,6 +31,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [更详细的角点函数](./docs/2.2.md)
 - [X] [HOG 特征](./docs/2.3.md)
 - [X] [特别的特征：边缘检测](./docs/2.4.md)
+- [X] [特别的特征：直线特征](./docs/2.5.md)
 
 第三章：目标分类/识别/检索
 
@@ -63,9 +64,10 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [Tracker](./docs/6.4.md)
 
 第七章：相机相关
-- [ ] [相机标定]
-- [ ] [ISP流程: AWB and Demosaic]
-- [ ] [ISP流程: CCM]
+
+- [ ] [相机标定](./docs/7.1.md)
+- [ ] [ISP流程: AWB and Demosaic](./docs/7.2.md)
+- [X] [ISP流程: CCM](./docs/7.3.md)
 
 第八章：传统方法下的图像增强
 
@@ -83,7 +85,6 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [视网膜模型，可用于对比度增强、ToneMapping、运动检测](./docs/0.5.md)
 - [X] [彩色转灰色时保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
 - [X] [图像修复](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html)
-
 
 一些不好归纳的记录：
 
@@ -111,7 +112,7 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 | 3.1  | AlphaMatting 原论文                                                                                                            |
 | 3.2  | 每个 BackGroundSubtractor 的原理，去 OpenCV 查参考文献                                                                         |
 | 9.2  | 彩色转灰色保持对比度的方法                                                                                                     |
-| 9.5  | 常见图像修复的原理                                                                                                     |
+| 9.5  | 常见图像修复的原理                                                                                                             |
 | 9.3  | 泊松融合重新看                                                                                                                 |
 | 9.3  | 泊松融合重新看                                                                                                                 |
 | 9.1  | HDR 相机响应曲线                                                                                                               |
