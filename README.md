@@ -22,6 +22,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [直方图](./docs/1.6.md)
 - [X] [轮廓和二维几何](./docs/1.7.md)
 - [X] [模板匹配](./docs/1.8.md)
+- [ ] [图片质量评价](./docs/1.9.md)
 - [ ] [分类](./docs/1.9.md)
 - [ ] [杂项](./docs/1.misc.md)
 
@@ -96,6 +97,8 @@ Learning OpenCV **2D Part** By Official Documents
 1.7 中还有 createGeneralizedHoughBallard, createGeneralizedHoughGuil
 
 https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phaseCorrelate 函数
+
+https://docs.opencv.org/4.x/dc/d6b/group__video__track.html 中有一个 KalmanFilter
 
 内部的原理：
 
