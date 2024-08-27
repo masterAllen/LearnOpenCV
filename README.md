@@ -4,13 +4,14 @@ Learning OpenCV **2D Part** By Official Documents
 
 系统过一遍官方文档：[https://docs.opencv.org/4.x/index.html](https://docs.opencv.org/4.x/index.html)，个人笔记，因此会很跳跃，其中简单的使用不会提，比如正常的读存图片、数据格式等等。
 
-3D 部分不涉及，OpenCV 3D 的模块: ovis, rapid, rgbd, sfm, stereo, structured_light, surface_matching, viz
-
 20240719 更新：先不对各个函数做具体详细说明，重点关注各个函数的作用是什么？我要解决某个问题时应该使用什么函数？
 
 20240722 更新：对于常用函数还是要说明，比如计算直方图这些基础函数。
 
 20240808 更新：对于一些涉及到调整参数的函数，需要介绍一下原理。比如 HOG 特征、Harris 角点等。
+
+20240820 更新：3D 部分不涉及，OpenCV 3D 的模块: ovis, rapid, rgbd, sfm, stereo, structured_light, surface_matching, viz
+
 
 第一章：基础知识
 
@@ -52,17 +53,20 @@ Learning OpenCV **2D Part** By Official Documents
 
 第五章：图像配准和拼接
 
-- [X] [整体配准：特征点法 or 迭代收敛](./docs/5.1.md)
-- [ ] [局部配准：光流法](./docs/5.2.md)
+- [X] [整体配准一：feature-based（reg、ecc）](./docs/5.1.md)
+- [ ] [整体配准二：pixel-based（特征点、稀疏光流）](./docs/5.2.md)
+- [ ] [局部配准：稠密光流](./docs/5.2.md)
 - [X] [不同亮度的配准（HDR MTB）](./docs/5.3.md)
 - [ ] [从图像配准到图像拼接](./docs/5.4.md)
+
 
 第六章：目标追踪
 
 - [ ] [MeanShift, CamShift](./docs/6.1.md)
-- [X] [利用图像配准](./docs/6.2.md)
-- [X] [光流法](./docs/6.3.md)
+- [X] [利用图像配准：暴力法、GPC](./docs/6.2.md)
+- [X] [光流法：稀疏和稠密](./docs/6.3.md)
 - [X] [Tracker](./docs/6.4.md)
+- [X] [Motion Templates(motempl)](./docs/6.5.md)
 
 第七章：相机相关
 
@@ -84,6 +88,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [图像转为不同风格](./docs/0.3.md)
 - [X] [Image Hash，图像相似度](./docs/0.4.md)
 - [X] [视网膜模型，可用于对比度增强、ToneMapping、运动检测](./docs/0.5.md)
+- [ ] [显著性检测](./docs/0.6.md)
 - [X] [彩色转灰色时保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
 - [X] [图像修复](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html)
 
