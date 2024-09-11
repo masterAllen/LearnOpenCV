@@ -12,7 +12,6 @@ Learning OpenCV **2D Part** By Official Documents
 
 20240820 更新：3D 部分不涉及，OpenCV 3D 的模块: ovis, rapid, rgbd, sfm, stereo, structured_light, surface_matching, viz
 
-
 第一章：基础知识
 
 - [X] [滤波函数](./docs/1.1.md)
@@ -22,7 +21,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [阈值处理](./docs/1.5.md)
 - [X] [直方图](./docs/1.6.md)
 - [X] [轮廓和二维几何](./docs/1.7.md)
-- [X] [模板匹配](./docs/1.8.md)
+- [X] [模板匹配和轮廓匹配](./docs/1.8.md)
 - [ ] [图片质量评价](./docs/1.9.md)
 - [ ] [分类](./docs/1.9.md)
 - [ ] [杂项](./docs/1.misc.md)
@@ -35,23 +34,27 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [特别的特征：边缘检测](./docs/2.4.md)
 - [X] [特别的特征：直线特征](./docs/2.5.md)
 
-第三章：目标分类/识别/检索
+第三章：目标分类、识别、检索
 
+针对特定物体的检测
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
 - [X] [常见检测：斑点、条形码二维码](./docs/3.2.md)
+- [X] [常见检测：文字（text 模块）](./docs/3.6.md)
+- [ ] [人脸识别](./docs/3.7.md)
+
+普适下的检测
 - [X] [数据学习的开始：HOG+SVM](./docs/3.3.md)
 - [X] [数据学习的提升：BoW 词袋模型](./docs/3.4.md)
 - [X] [数据学习的提升：级联分类器](./docs/3.5.md)
 - [ ] [多目标的识别]
-- [ ] [人脸识别](./docs/3.6.md)
 
-第四章：图片分割
+第四章：图片分割、前后景分离
 
 - [X] [交互式前后背景分离：GrabCut, WaterShed, AlphaMatting](./docs/4.1.md)
 - [X] [视频帧前后背景分离: BackGroundSubtractor](./docs/4.2.md)
 - [X] [HfsSegment](./docs/4.3.md)
 
-第五章：图像配准和拼接
+第五章：图像配准、图片拼接
 
 - [X] [整体配准一：feature-based（reg、ecc）](./docs/5.1.md)
 - [ ] [整体配准二：pixel-based（特征点、稀疏光流）](./docs/5.2.md)
@@ -59,14 +62,14 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [不同亮度的配准（HDR MTB）](./docs/5.3.md)
 - [ ] [从图像配准到图像拼接](./docs/5.4.md)
 
+第六章：视频运动相关：光流、追踪、稳定
 
-第六章：目标追踪
-
-- [ ] [MeanShift, CamShift](./docs/6.1.md)
-- [X] [利用图像配准：暴力法、GPC](./docs/6.2.md)
-- [X] [光流法：稀疏和稠密](./docs/6.3.md)
-- [X] [Tracker](./docs/6.4.md)
-- [X] [Motion Templates(motempl)](./docs/6.5.md)
+- [X] [基础知识-光流：稀疏和稠密](./docs/6.3.md)
+- [X] [追踪：利用图像配准（暴力法、GPC）](./docs/6.2.md)
+- [ ] [追踪：MeanShift, CamShift](./docs/6.1.md)
+- [X] [追踪：tracker 模块](./docs/6.4.md)
+- [X] [追踪：motempl 模块](./docs/6.5.md)
+- [ ] [稳定：videostab 模块](./docs/6.7.md)
 
 第七章：相机相关
 
