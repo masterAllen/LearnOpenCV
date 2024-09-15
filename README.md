@@ -39,14 +39,14 @@ Learning OpenCV **2D Part** By Official Documents
 针对特定物体的检测
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
 - [X] [常见检测：斑点、条形码二维码](./docs/3.2.md)
-- [X] [常见检测：文字（text 模块）](./docs/3.6.md)
-- [ ] [人脸识别](./docs/3.7.md)
+- [ ] [常见检测：文字（text 模块）](./docs/3.6.md)
+- [ ] [常见检测：人脸识别](./docs/3.7.md)
 
 普适下的检测
 - [X] [数据学习的开始：HOG+SVM](./docs/3.3.md)
 - [X] [数据学习的提升：BoW 词袋模型](./docs/3.4.md)
 - [X] [数据学习的提升：级联分类器](./docs/3.5.md)
-- [ ] [多目标的识别]
+- [ ] [xobjectdect 模块(WaldBoost)](./docs/3.8.md)
 
 第四章：图片分割、前后景分离
 
@@ -74,7 +74,7 @@ Learning OpenCV **2D Part** By Official Documents
 第七章：相机相关
 
 - [ ] [相机标定](./docs/7.1.md)
-- [ ] [ISP流程: AWB and Demosaic](./docs/7.2.md)
+- [X] [ISP流程: AWB](./docs/7.2.md)
 - [X] [ISP流程: CCM](./docs/7.3.md)
 
 第八章：传统方法下的图像增强
@@ -91,9 +91,9 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [图像转为不同风格](./docs/0.3.md)
 - [X] [Image Hash，图像相似度](./docs/0.4.md)
 - [X] [视网膜模型，可用于对比度增强、ToneMapping、运动检测](./docs/0.5.md)
-- [ ] [显著性检测](./docs/0.6.md)
+- [X] [显著性检测](./docs/0.6.md)
 - [X] [彩色转灰色时保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
-- [X] [图像修复](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html)
+- [X] [图像修复一](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html) [、图像修复二](https://docs.opencv.org/4.x/de/daa/group__xphoto.html#ga1a7f584b7e6b10d830c4ac3bb12b4b73)
 
 一些不好归纳的记录：
 
