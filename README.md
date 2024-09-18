@@ -12,6 +12,8 @@ Learning OpenCV **2D Part** By Official Documents
 
 20240820 更新：3D 部分不涉及，OpenCV 3D 的模块: ovis, rapid, rgbd, sfm, stereo, structured_light, surface_matching, viz
 
+20240917 更新：有几个模块不再调研: superres（超分模块，但用的是光流方法，在 AI 下已经是昨日黄花，还是用 dnn_superres 更香）、cvv（用于 Debug，但是我看了一下，传统的 debug 更好）
+
 第一章：基础知识
 
 - [X] [滤波函数](./docs/1.1.md)
@@ -22,8 +24,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [直方图](./docs/1.6.md)
 - [X] [轮廓和二维几何](./docs/1.7.md)
 - [X] [模板匹配和轮廓匹配](./docs/1.8.md)
-- [ ] [图片质量评价](./docs/1.9.md)
-- [ ] [分类](./docs/1.9.md)
+- [X] [图片质量评价](./docs/1.9.md)
 - [ ] [杂项](./docs/1.misc.md)
 
 第二章：特征提取
@@ -33,20 +34,22 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [HOG 特征](./docs/2.3.md)
 - [X] [特别的特征：边缘检测](./docs/2.4.md)
 - [X] [特别的特征：直线特征](./docs/2.5.md)
+- [ ] [特别的特征：人脸特征](./docs/2.6.md)
 
 第三章：目标分类、识别、检索
 
 针对特定物体的检测
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
 - [X] [常见检测：斑点、条形码二维码](./docs/3.2.md)
-- [ ] [常见检测：文字（text 模块）](./docs/3.6.md)
+- [X] [常见检测：文字（text 模块）](./docs/3.6.md)
 - [ ] [常见检测：人脸识别](./docs/3.7.md)
 
 普适下的检测
 - [X] [数据学习的开始：HOG+SVM](./docs/3.3.md)
 - [X] [数据学习的提升：BoW 词袋模型](./docs/3.4.md)
 - [X] [数据学习的提升：级联分类器](./docs/3.5.md)
-- [ ] [xobjectdect 模块(WaldBoost)](./docs/3.8.md)
+- [ ] [WalBoost 分类器（xobject 模块）](./docs/3.8.md)
+- [X] [多目标识别（dpm 模块）](./docs/3.9.md)
 
 第四章：图片分割、前后景分离
 
@@ -62,14 +65,14 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [不同亮度的配准（HDR MTB）](./docs/5.3.md)
 - [ ] [从图像配准到图像拼接](./docs/5.4.md)
 
-第六章：视频运动相关：光流、追踪、稳定
+第六章：视频运动相关：光流、追踪、防抖
 
-- [X] [基础知识-光流：稀疏和稠密](./docs/6.3.md)
-- [X] [追踪：利用图像配准（暴力法、GPC）](./docs/6.2.md)
+- [ ] [基础知识-光流：稀疏和稠密](./docs/6.3.md)
+- [ ] [追踪：利用图像配准（暴力法、GPC）](./docs/6.2.md)
 - [ ] [追踪：MeanShift, CamShift](./docs/6.1.md)
 - [X] [追踪：tracker 模块](./docs/6.4.md)
 - [X] [追踪：motempl 模块](./docs/6.5.md)
-- [ ] [稳定：videostab 模块](./docs/6.7.md)
+- [X] [防抖：videostab 模块](./docs/6.7.md)
 
 第七章：相机相关
 
@@ -79,7 +82,7 @@ Learning OpenCV **2D Part** By Official Documents
 
 第八章：传统方法下的图像增强
 
-- [ ] [常见去噪](./docs/8.1.md)
+- [ ] [去噪](./docs/8.1.md)
 - [ ] [去抖](./docs/8.2.md)
 - [ ] [超分](./docs/8.3.md)
 - [X] [对比度增强](./docs/8.4.md)
