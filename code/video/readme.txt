@@ -1,0 +1,1 @@
+pan.avi: https://github.com/oberger4711/vstab/blob/master/data/pan.avi
