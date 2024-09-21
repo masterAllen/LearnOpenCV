@@ -34,7 +34,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [HOG 特征](./docs/2.3.md)
 - [X] [特别的特征：边缘检测](./docs/2.4.md)
 - [X] [特别的特征：直线特征](./docs/2.5.md)
-- [ ] [特别的特征：人脸特征](./docs/2.6.md)
+- [X] [特别的特征：人脸特征](./docs/2.6.md)
 
 第三章：目标分类、识别、检索
 
@@ -42,13 +42,13 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [霍尔变换检测直线和圆](./docs/3.1.md)
 - [X] [常见检测：斑点、条形码二维码](./docs/3.2.md)
 - [X] [常见检测：文字（text 模块）](./docs/3.6.md)
-- [ ] [常见检测：人脸识别](./docs/3.7.md)
+- [X] [常见检测：人脸识别](./docs/3.7.md)
 
 普适下的检测
 - [X] [数据学习的开始：HOG+SVM](./docs/3.3.md)
 - [X] [数据学习的提升：BoW 词袋模型](./docs/3.4.md)
 - [X] [数据学习的提升：级联分类器](./docs/3.5.md)
-- [ ] [WalBoost 分类器（xobject 模块）](./docs/3.8.md)
+- [X] [WalBoost 分类器（xobject 模块）（未成功）](./docs/3.8.md)
 - [X] [多目标识别（dpm 模块）](./docs/3.9.md)
 
 第四章：图片分割、前后景分离
@@ -61,9 +61,9 @@ Learning OpenCV **2D Part** By Official Documents
 
 - [X] [整体配准一：feature-based（reg、ecc）](./docs/5.1.md)
 - [ ] [整体配准二：pixel-based（特征点、稀疏光流）](./docs/5.2.md)
-- [ ] [局部配准：稠密光流](./docs/5.2.md)
+- [ ] [局部配准：稠密光流](./docs/5.4.md)
 - [X] [不同亮度的配准（HDR MTB）](./docs/5.3.md)
-- [ ] [从图像配准到图像拼接](./docs/5.4.md)
+- [ ] [从图像配准到图像拼接](./docs/5.5.md)
 
 第六章：视频运动相关：光流、追踪、防抖
 
