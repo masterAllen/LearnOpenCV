@@ -126,13 +126,9 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 
 | 章节 | 知识点                                                                                                                         |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 1.6  | EMD距离指标                                                                                                                    |
 | 3.1  | GrabCut 原论文                                                                                                                 |
 | 9.5  | 常见图像修复的原理                                                                                                             |
-| 9.3  | 泊松融合重新看                                                                                                                 |
-| 9.1  | HDR 相机响应曲线                                                                                                               |
 | 4.1  | [Alpha matting](https://openaccess.thecvf.com/content_cvpr_2017/papers/Aksoy_Designing_Effective_Inter-Pixel_CVPR_2017_paper.pdf) |
-| 4.3  | [HFS](https://github.com/yun-liu/hfs)                                                                                             |
 
 函数具体的细节：
 
