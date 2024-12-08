@@ -64,6 +64,7 @@ Learning OpenCV **2D Part** By Official Documents
 
 第四章：图片分割、前后景分离
 
+- [X] [简单图像是分割：直接用形态学膨胀腐蚀](./docs/4.5.md)
 - [X] [交互式前后背景分离：GrabCut, WaterShed, AlphaMatting](./docs/4.1.md)
 - [X] [视频帧前后背景分离: BackGroundSubtractor](./docs/4.2.md)
 - [X] [HfsSegment（hfs 模块）](./docs/4.3.md)
