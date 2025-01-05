@@ -19,13 +19,14 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [基础滤波函数](./docs/1.1.md)
 - [X] [金字塔函数](./docs/1.2.md)
 - [X] [形态学](./docs/1.3.md)
-- [X] [变换矩阵](./docs/1.4.md)
-- [X] [阈值处理](./docs/1.5.md)
-- [X] [直方图](./docs/1.6.md)
-- [X] [二维几何和轮廓](./docs/1.7.md)
-- [X] [轮廓匹配](./docs/1.8.md)
-- [X] [模板匹配](./docs/1.a.md)
-- [X] [图片质量评价](./docs/1.9.md)
+- [X] [形态学的应用](./docs/1.4.md)
+- [X] [变换矩阵](./docs/1.5.md)
+- [X] [阈值处理](./docs/1.6.md)
+- [X] [直方图](./docs/1.7.md)
+- [X] [二维几何和轮廓](./docs/1.8.md)
+- [X] [轮廓匹配](./docs/1.9.md)
+- [X] [模板匹配](./docs/1.b.md)
+- [X] [图片质量评价](./docs/1.a.md)
 - [ ] [杂项](./docs/1.misc.md)
 
 第二章：特征提取
@@ -79,13 +80,12 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [从图像配准到图像拼接：简单介绍](./docs/5.5.md)
 - [X] [从图像配准到图像拼接：细节介绍](./docs/5.6.md)
 
-第六章：视频运动相关：光流、追踪、防抖
+第六章：光流和目标追踪
 
 - [X] [基础知识-光流：稀疏和稠密](./docs/6.3.md)
 - [X] [追踪：MeanShift, CamShift](./docs/6.1.md)
 - [X] [追踪：tracker 模块](./docs/6.4.md)
 - [X] [追踪：motempl 模块](./docs/6.5.md)
-- [X] [防抖：videostab 模块](./docs/6.7.md)
 
 第七章：相机相关
 
@@ -111,6 +111,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [PeiLinNormalization](./docs/0.8.md)
 - [X] [Radon Transform(拉东变换)](./docs/0.9.md)
 - [X] [Phase Unwarping](./docs/0.a.md)
+- [X] [视频防抖：videostab 模块](./docs/0.b.md)
 - [X] [彩色转灰色时保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
 - [X] [图像修复一](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html) [、图像修复二](https://docs.opencv.org/4.x/de/daa/group__xphoto.html#ga1a7f584b7e6b10d830c4ac3bb12b4b73)
 
