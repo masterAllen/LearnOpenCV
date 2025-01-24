@@ -112,6 +112,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [Radon Transform(拉东变换)](./docs/0.9.md)
 - [X] [Phase Unwarping](./docs/0.a.md)
 - [X] [视频防抖：videostab 模块](./docs/0.b.md)
+- [X] [Phase Correlate，相位配准](./docs/0.c.md)
 - [X] [彩色转灰色时保持对比度](https://docs.opencv.org/4.x/d4/d32/group__photo__decolor.html)
 - [X] [图像修复一](https://docs.opencv.org/4.x/d7/d8b/group__photo__inpaint.html) [、图像修复二](https://docs.opencv.org/4.x/de/daa/group__xphoto.html#ga1a7f584b7e6b10d830c4ac3bb12b4b73)
 
@@ -122,15 +123,8 @@ Learning OpenCV **2D Part** By Official Documents
 
 ## TODO
 
-https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phaseCorrelate 函数
-
 内部的原理：
 
 | 章节 | 知识点                                                                                                                         |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------ |
 | 9.5  | 常见图像修复的原理                                                                                                             |
-
-函数具体的细节：
-
-- HoughCircles
-- HOGDescriptor 类里面的各种函数
