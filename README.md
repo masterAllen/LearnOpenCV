@@ -128,9 +128,7 @@ https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html 中有一个 phas
 
 | 章节 | 知识点                                                                                                                         |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 3.1  | GrabCut 原论文                                                                                                                 |
 | 9.5  | 常见图像修复的原理                                                                                                             |
-| 4.1  | [Alpha matting](https://openaccess.thecvf.com/content_cvpr_2017/papers/Aksoy_Designing_Effective_Inter-Pixel_CVPR_2017_paper.pdf) |
 
 函数具体的细节：
 
