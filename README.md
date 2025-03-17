@@ -27,7 +27,7 @@ Learning OpenCV **2D Part** By Official Documents
 - [X] [轮廓匹配](./docs/1.9.md)
 - [X] [模板匹配](./docs/1.b.md)
 - [X] [图片质量评价](./docs/1.a.md)
-- [ ] [杂项](./docs/1.misc.md)
+- [X] [杂项](./docs/1.misc.md)
 
 第二章：特征提取
 
@@ -120,11 +120,3 @@ Learning OpenCV **2D Part** By Official Documents
 
 1. 提取确定的前景：使用 **DistanceTansform**，该函数在 [1.3](./docs/1.3.md) 中有介绍
 2. 去高亮：使用 **illuminationChange**，[泊松融合](./docs/0.2.md) 那里
-
-## TODO
-
-内部的原理：
-
-| 章节 | 知识点                                                                                                                         |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 9.5  | 常见图像修复的原理                                                                                                             |
