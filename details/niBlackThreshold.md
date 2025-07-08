@@ -26,4 +26,4 @@ $$
 T(x, y) = boxMean + k * \sqrt{boxStd^{2} + Mean(Box^2)}
 $$
 
-![1720837598672](https://file+.vscode-resource.vscode-cdn.net/d%3A/LearnOpenCV/docs/image/1.5/1720837598672.png)
+![1720837598672](./image/1720837598672.png)
